@@ -1,7 +1,7 @@
 {
     "parent-chain": {
         "connection": {
-            "url": "wss://arbitrum-sepolia.infura.io/ws/v3/YOUR_API_KEY"
+            "url": "WEBSOCKET_ARBITRUM_SEPOLIA_RPC_URL"
         }
     },
     "chain": {
