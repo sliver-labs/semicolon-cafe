@@ -1,11 +1,11 @@
 {
     "parent-chain": {
         "connection": {
-            "url": "wss://arbitrum-sepolia.infura.io/ws/v3/"
+            "url": "wss://arb-mainnet.g.alchemy.com/v2/YOUR_API_KEY"
         }
     },
     "chain": {
-        "id": 12331319,
+        "id": 1000000,
         "info-files": [
             "/config/l2_chain_info.json"
         ]
@@ -13,7 +13,7 @@
     "node": {
         "staker": {
             "parent-chain-wallet": {
-                "private-key": ""
+                "private-key": "VALIDATOR_PRIVATE_KEY"
             },
             "disable-challenge": false,
             "enable": true,
@@ -48,11 +48,11 @@
             "redis-url": "",
             "l1-block-bound": "ignore",
             "hotshot-url": "https://query.decaf.testnet.espresso.network/v0",
-            "light-client-address": "0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098",
+            "light-client-address": "LIGHT_CLIENT_ADDRESS",
             "wait-for-max-delay": true,
             "resubmit-espresso-tx-deadline": "2m",
             "parent-chain-wallet": {
-                "private-key": ""
+                "private-key": "BATCH_POSTER_PRIVATE_KEY"
             },
             "max-delay": "1m"
         },
