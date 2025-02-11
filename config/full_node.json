@@ -47,7 +47,7 @@
             "enable": true,
             "redis-url": "",
             "l1-block-bound": "ignore",
-            "hotshot-url": "https://query.decaf.testnet.espresso.network/v0",
+            "hotshot-url": "https://query.decaf.mainnet.espresso.network/v0",
             "light-client-address": "LIGHT_CLIENT_ADDRESS",
             "wait-for-max-delay": true,
             "resubmit-espresso-tx-deadline": "2m",
