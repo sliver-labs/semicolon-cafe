@@ -1,4 +1,4 @@
-versions: '2.2'
+version: '2.2'
 services:
   nitro:
     image: ghcr.io/espressosystems/nitro-espresso-integration/nitro-node:integration
