@@ -47,8 +47,8 @@
             "enable": true,
             "redis-url": "",
             "l1-block-bound": "ignore",
-            "hotshot-url": "https://query.decaf.mainnet.espresso.network/v0",
-            "light-client-address": "0x61f627c6785503b6d83e4d59611af7361210ae64",
+            "hotshot-url": "https://query.decaf.testnet.espresso.network/v0",
+            "light-client-address": "0x08d16cb8243b3e172dddcdf1a1a5dacca1cd7098",
             "wait-for-max-delay": true,
             "resubmit-espresso-tx-deadline": "2m",
             "parent-chain-wallet": {
