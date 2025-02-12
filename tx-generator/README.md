@@ -1,32 +1,33 @@
-
 ## About
 
-This utility is designed to help you generate a steady flow of transactions on your rollup to ensure it is functional.
+This utility generates a steady flow of transactions on your rollup to ensure it is functional.
 
-## Dependencies
+## Requirements
 
-This script requires ts-node. If you don't have it installed, you can find installation instructions [here](https://www.npmjs.com/package/ts-node#installation).
-
-## Assumptions
-
-You have access to a private key that is funded on your rollup. If you do not have this, you can bridge funds from your rollups parent chain to your network.
+You need a funded wallet on your rollup. If needed, bridge funds from your rollup's parent chain before proceeding.
 
 ## Setup
 
-1. Modify `./index.ts` with:
+1. Configure `./index.mjs`:
    - RPC address of your rollup
-   - Private key of your funded wallet
-   - Recipient address for transactions
+   - Private key of funded wallet
+   - Recipient address
 
-2. (Optional) Edit `./run.sh` to adjust the transaction interval
-   - Default sleep interval is 250ms between transactions 
+2. Install dependencies:
+   ```bash
+   pnpm install   # or npm install / yarn
+   ```
+
+3. Prepare script:
+   ```bash
+   chmod +x run.sh
+   ```
+
+4. (Optional) Adjust transaction interval in `run.sh`
+   - Default: 250ms between transactions 
 
 ## Usage
 
-From the transaction-generator directory, run the following command in your terminal:
-
-```
+```bash
 ./run.sh
 ```
-
-
