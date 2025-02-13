@@ -6,6 +6,8 @@ import { ethers } from "ethers";
     const tx = await signer.sendTransaction({
         to: 'RECIPIENT_ADDRESS',
         value: ethers.parseUnits('1', 'wei'),
+        gasPrice: ethers.parseUnits('1', 'gwei'),
+        gasLimit: 24000,
     });
     console.log(tx);
 })();
