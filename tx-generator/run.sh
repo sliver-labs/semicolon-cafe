@@ -2,5 +2,5 @@
 
 while true; do
   ts-node index.mjs
-  sleep 15;
+  sleep 10;
 done

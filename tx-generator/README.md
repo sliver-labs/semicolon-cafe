@@ -4,7 +4,7 @@ This utility generates a steady flow of transactions on your rollup to ensure it
 
 ## Requirements
 
-You need a funded wallet on your rollup. If needed, bridge funds from your rollup's parent chain before proceeding.
+You need a funded wallet on your rollup. If needed, bridge funds from your rollup's parent chain before proceeding. The bridging command can be found in the hackathon guide.
 
 ## Setup
 
@@ -12,6 +12,7 @@ You need a funded wallet on your rollup. If needed, bridge funds from your rollu
    - RPC address of your rollup
    - Private key of funded wallet
    - Recipient address
+   - Gas limit (default: 24000, increase if you get 'intrinsic gas too low' error)
 
 2. Install dependencies:
    ```bash
@@ -24,7 +25,7 @@ You need a funded wallet on your rollup. If needed, bridge funds from your rollu
    ```
 
 4. (Optional) Adjust transaction interval in `run.sh`
-   - Default: 250ms between transactions 
+   - Default: 10s between transactions 
 
 ## Usage
 
