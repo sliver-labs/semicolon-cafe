@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 (async () => {
     const provider = new ethers.JsonRpcProvider('http://YOUR_ROLLUP_RPC_URL:8547'); // Rollup RPC URL
-    const signer = new ethers.Wallet('YOUR_PRIVATE_KEY', provider);
+    const signer = new ethers.Wallet('FUNDED_PRIVATE_KEY_ON_YOUR_ROLLUP', provider);
 
     const tx = await signer.sendTransaction({
         to: 'DESTINATION_ADDRESS',
