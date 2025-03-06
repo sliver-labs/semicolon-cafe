@@ -1,6 +1,7 @@
+version: '2.2'
 services:
   caff_node:
-    image: ghcr.io/espressosystems/nitro-espresso-integration/nitro-node@sha256:9e1c11a95df5549501f6cc4833cb4acee9b5d860178109d7e4c1230948ed3773
+    image: ghcr.io/espressosystems/nitro-espresso-integration/nitro-node@sha256:bf63374a00a5d6676ca39af79ac4b0f053128cb7438bcdaa746dba6656c12658
     container_name: caff_node
     ports:
       - "8550:8547"
