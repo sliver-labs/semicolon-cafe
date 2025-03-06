@@ -17,8 +17,8 @@
             },
             "disable-challenge": false,
             "enable": true,
-            "staker-interval": "10s",
-            "make-assertion-interval": "10s",
+            "staker-interval": "120s",
+            "make-assertion-interval": "120s",
             "strategy": "MakeNodes"
         },
         "sequencer": true,
@@ -28,7 +28,7 @@
         },
         "parent-chain-reader": {
             "poll-only": true,
-            "poll-interval": "60s"
+            "poll-interval": "120s"
         },
         "delayed-sequencer": {
             "enable": true
