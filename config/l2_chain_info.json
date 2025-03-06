@@ -43,7 +43,7 @@
             "sequencer-inbox": "SEQUENCER_INBOX_ADDRESS",
             "deployed-at": 100000000,
             "rollup": "ROLLUP_ADDRESS",
-            "native-token": "NATIVE_TOKEN_ADDRESS",
+            "native-token": "0x0000000000000000000000000000000000000000",
             "upgrade-executor": "UPGRADE_EXECUTOR_ADDRESS",
             "validator-utils": "VALIDATOR_UTILS_ADDRESS",
             "validator-wallet-creator": "VALIDATOR_WALLET_CREATOR_ADDRESS"
