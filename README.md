@@ -1,5 +1,9 @@
 # Semicolon Fingers Caffeinated Node
 
+> [!IMPORTANT]
+> `cp config/full_node.example.json config/full_node.json`
+> Then update the private values
+
 ## Local Dev
 
 ```
