@@ -52,7 +52,7 @@
                 ],
                 "next-hotshot-block": 2649446,
                 "namespace": 1066601,
-                "parent-chain-node-url": "WEBSOCKET_ARBITRUM_SEPOLIA_RPC_URL",
+                "parent-chain-node-url": "wss://arbitrum-sepolia.testnet.espresso.network:4443/",
                 "sequencer-url": "http://nitro-node:8547",
                 "hotshot-polling-interval": "1ms",
                 "retry-time": "2s",
