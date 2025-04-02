@@ -4,6 +4,8 @@
 > `cp config/full_node.example.json config/full_node.json`
 > Then update the private values
 
+ec2 instance :: `3.14.153.125` ([status check](https://semicolonfingers.com/rollup-status))
+
 ## Local Dev
 
 ```
