@@ -9,3 +9,5 @@ yarn.lock
 .DS_Store
 .env
 config/full_node.json
+
+*.pem
